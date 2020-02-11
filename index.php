@@ -1,5 +1,10 @@
 <?php 
+    $time = strtotime('+1 hour');
+    strtotime('+1 hour', $time);
+    $time = date("H:i", strtotime('+0 hour'));
+    // if(){
 
+    // }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +15,10 @@
     <title>Goedendag</title>
 </head>
 <body>
-    
+    <img src="">
+    <h1>
+        <?php
+         echo "Het is nu " . $time;
+        ?></h1>
 </body>
 </html>
