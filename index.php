@@ -22,7 +22,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dag.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <title>Goedendag</title>
 <style>
     *{
@@ -35,6 +35,7 @@ body {
     background-size: cover;
 }
 h1{
+    font-family: 'Lobster', cursive;
     text-align:center;
     color:white;
 }
