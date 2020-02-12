@@ -37,7 +37,7 @@ body {
 h1{
     position:absolute;
     left:40%;
-    top:37%;
+    top:34%;
     font-family: 'Lobster', cursive;
     font-weight:400;
     font-size:52px;
