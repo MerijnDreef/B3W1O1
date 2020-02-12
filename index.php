@@ -2,19 +2,19 @@
     $time = date("H");
     if($time >= "6" && $time <= "12"){
         $txt = "Goede morgen!";
-        $img = "morning.png";
+        $img = "images/morning.png";
     }
     else if($time >= "12" && $time <= "18"){
         $txt = "Goede middag!";
-        $img = "afternoon.png";
+        $img = "images/afternoon.png";
     }
     else if($time >= "18" && $time <= "0"){
         $txt = "Goede avond!";
-        $img = "evening.png";
+        $img = "images/evening.png";
     }
     else if($time >= "0" && $time <= "6"){
         $txt = "Goede nacht!";
-        $img = "night.png";
+        $img = "images/night.png";
     }
 ?>
 <!DOCTYPE html>
@@ -35,7 +35,12 @@ body {
     background-size: cover;
 }
 h1{
+    position:absolute;
+    left:40%;
+    top:35%;
     font-family: 'Lobster', cursive;
+    font-weight:400;
+    font-size:52px;
     text-align:center;
     color:white;
 }
@@ -45,7 +50,7 @@ h1{
     <h1>
         <?php
          echo $txt . "<br>";
-         echo "Het is nu " . date("H:i");
+         echo "<br>" . "Het is nu " . date("H:i");
         ?></h1>
 </body>
 </html>
